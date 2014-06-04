@@ -3,17 +3,60 @@
 ini jalan kagak?<br>
 <?php
 
-
-
 ?>
-
 <br>
-yang sama <?php echo $banyak;?><br>
 <br><a href="index.php"><b>Kembali</b></a></td>
 
 </body>
 </html>
 <!--
+/* ===========
+// 4.52 Tunjangan yang dipotong
+$kata1 = $_POST["input1"];
+$pecah1 = explode(" ", $kata1);
+$gaji = $pecah1[0];
+$pajak = (100-$pecah1[1])/100;
+
+$tambahan = 0;
+$tambahan = ($gaji/$pajak) - $gaji;
+echo "$tambahan<br>";
+
+$bulat = explode(".", $tambahan);
+echo $bulat[0]+1;
+
+/* ===========
+// 4.13 jam lembur
+$kata1 = $_POST["input1"];
+$pecah1 = explode(" ", $kata1);
+$lama = $pecah1[1]-$pecah1[0];
+$lembur = $lama-8;
+$jam = 0;
+if ($lama > 8) { 
+  if ($lembur > 2) { // kalo lemburnya 3 jam = 8 + 3 + lembur
+    $jam = 11 + ($lembur * 3);
+  } elseif ($lembur > 1) { //kalo 2 jam = 8 + 1 + 2
+    $jam = 11;
+  } else { // kalo 1 jam = 8 + 1
+    $jam = 9;
+  }
+} else {
+  # code...
+  $jam = $lama;
+}
+
+/* ===========
+// 4.22 Ember
+$kata1 = $_POST["input1"];
+$pecah1 = explode(" ", $kata1);
+$jumlah = 0;
+for ($i=0; $i < count($pecah1) ; $i++) { 
+  # code...
+  $jumlah = $jumlah + $pecah1[$i];
+}
+$hasil = 0;
+$hasil = $jumlah/count($pecah1);
+?>
+
 /* ==========
 // 4.32 palindrom number
 
