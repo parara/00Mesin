@@ -7,23 +7,25 @@
 ini jalan kagak?<br>
 <center>
   <form action="insert.php" method="post">
-  Firstname: <input type="text" name="firstname">
-  Lastname: <input type="text" name="lastname">
+  Firstname: <input type="text" name="first">
+  Lastname: <input type="text" name="last">
   Age: <input type="text" name="age">
   <input type="submit">
   </form>
 
 </center>
-<?php
-// Create connection
-$con=mysqli_connect("localhost","root","alpa","mesin");
 
-// Check connection
-if (mysqli_connect_errno()) {
-  echo "Failed to connect to MySQL: " . mysqli_connect_error();
-} else {
-  //echo "sukses";
-}
+<?php
+echo "<a href='show.php'>Show</a>";
+// // Create connection
+// $con=mysqli_connect("localhost","root","alpa","mesin");
+
+// // Check connection
+// if (mysqli_connect_errno()) {
+//   echo "Failed to connect to MySQL: " . mysqli_connect_error();
+// } else {
+//   //echo "sukses";
+// }
 
 //mysqli_query($con,"INSERT INTO Persons (Fistname, LastName, Age) VALUES ('Peter','Grifin',35)");
 //mysqli_close($con);
