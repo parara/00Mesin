@@ -1,34 +1,37 @@
-<?php
-session_start();
-if (isset($_SESSION['username'])) {
-  header('location:index.php');
-}
-require_once ("koneksi.php");
-?>
+<!DOCTYPE html>
 <html>
-<head>
-  <title>Form Login</title>
-</head>
-<body>
-<center>
-  <form action="proseslogin.php" method="post">
-    <tr><td colspan="2" align="center"><h1>Masuk</h1></td></tr>
-    <table>
-    <tr>
-      <td>Username</td><td> : <input type="text" name="username"></td>
-      <td>Password</td><td> : <input type="password" name="password"></td>
-    </tr>
-    <tr>
-      <td colspan="2" align="right">
-        <input type="submit" value="Login">
-        <input type="reset" value="Batal">
+  <head>
+    <title>WarSi | Warung Aplikasi BlankOn</title>
+  </head>
+  <body>
+<table width="300" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
+  <tr>
+    <form name="form1" method="post" action="checklogin.php">
+      <td>
+        <table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#FFFFFF">
+          <tr>
+          <td colspan="3"><strong>Member Login </strong></td>
+          </tr>
+          <tr>
+            <td width="78">Username</td>
+            <td width="6">:</td>
+            <td width="294"><input name="username" type="text" id="username"></td>
+          </tr>
+          <tr>
+          <td>Password</td>
+          <td>:</td>
+          <td><input name="password" type="password" id="password"></td>
+          </tr>
+          <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td><input type="submit" name="Submit" value="Login"></td>
+          </tr> 
+        </table>
       </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">Belum Punya akun ?<a href="daftar.php"><b>Daftar</b></a></td>
-    </tr>
-    </table>
-  </form>
-</center>
-</body>
+    </form>
+  </tr>
+</table>
+
+  </body>
 </html>

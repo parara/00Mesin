@@ -1,16 +1,5 @@
+// Put this code in first line of web page.
 <?php
 session_start();
-unset($_SESSION['username']);
+session_destroy();
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-  <title></title>
-</head>
-<body>
-<center>
-<h2>Anda telah berhasil logout..</h2>
-Silahkan klik <b>disini</b> untuk login kembali
-</center>
-</body>
-</html>
