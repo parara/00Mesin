@@ -17,12 +17,14 @@ $hasil = mysql_fetch_array($query);
     <title>WarSi | Warung Aplikasi BlankOn</title>
   </head>
   <body>
-ini jalan kagak?<br>
 <center>
 <?php
 echo "<h2>Selamat datang, $username </h2>";
 ?>
+<br>
 <a href="logout.php"><b>Logout</b></a>
+<br>
+<a href="akun.php"><b>Akun</b></a>
 </center>
   </body>
 </html>
