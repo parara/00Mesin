@@ -28,39 +28,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    if (empty($_POST["name"])) {
      $nameErr = "Name is required";
    } else {
-     $name = test_input($_POST["name"]);
-   }
-  
-   if (empty($_POST["email"])) {
-     $emailErr = "Email is required";
-   } else {
-     $email = test_input($_POST["email"]);
-   }
-    
-   if (empty($_POST["website"])) {
-     $website = "";
-   } else {
-     $website = test_input($_POST["website"]);
-   }
-
-   if (empty($_POST["comment"])) {
-     $comment = "";
-   } else {
-     $comment = test_input($_POST["comment"]);
-   }
-
-   if (empty($_POST["gender"])) {
-     $genderErr = "Gender is required";
-   } else {
-     $gender = test_input($_POST["gender"]);
+     test_input($_POST["name"],$username);
    }
 }
 
-function test_input($data) {
-   $data = trim($data);
-   $data = stripslashes($data);
-   $data = htmlspecialchars($data);
-   return $data;
+// function test_input($data) {
+//    $data = trim($data);
+//    $data = stripslashes($data);
+//    $data = htmlspecialchars($data);
+//    return $data;
+// }
+
+function test_input($inputan,$username) {
+  $inputan = trim($inputan);
+  $ygpunya = $username;
+  // $con = mysql_query("UPDATE pengguna SET firstname=$inputan WHERE username = '$username'") or die(mysql_error());
+  //   if($con) {
+  //   echo "successful";
+  //   }else {
+  //   echo "error";
+  //   }
+  echo "$inputan satu <br>"; //mahyudin pagi
+  echo "$ygpunya dua <br>"; //mahyudin
+  echo "$username"; //pagi
+  return;
 }
 ?>
 
@@ -70,48 +61,15 @@ function test_input($data) {
    Name: <input type="text" name="name">
    <span class="error">* <?php echo $nameErr;?></span>
    <br><br>
-   E-mail: <input type="text" name="email">
-   <span class="error">* <?php echo $emailErr;?></span>
-   <br><br>
-   Website: <input type="text" name="website">
-   <span class="error"><?php echo $websiteErr;?></span>
-   <br><br>
-   Comment: <textarea name="comment" rows="5" cols="40"></textarea>
-   <br><br>
-   Gender:
-   <input type="radio" name="gender" value="female">Female
-   <input type="radio" name="gender" value="male">Male
-   <span class="error">* <?php echo $genderErr;?></span>
-   <br><br>
    <input type="submit" name="submit" value="Submit">
 </form>
 
 <?php
+echo "<h2>Selamat datang, $username </h2>";
 echo "<h2>Your Input:</h2>";
 echo $name;
-echo "<br>";
-echo $email;
-echo "<br>";
-echo $website;
-echo "<br>";
-echo $comment;
-echo "<br>";
-echo $gender;
-
-// $simpan = mysql_query("INSERT INTO pengguna(username,password) VALUES ('$username','$pass')");
-//   if ($simpan) {
-//     # code...
-//     echo "Pendaftaran sukses, silahkan <a href='daftar.php'> Login </a>";
-//   } else {
-//     # code...
-//     echo "Proses gagal";
-//   } 
 ?>
 
-
-<?php
-echo "<h2>Selamat datang, $username </h2>";
-?>
 <br>
 <a href="logout.php"><b>Logout</b></a>
 </center>
