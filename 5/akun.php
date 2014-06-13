@@ -40,14 +40,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 // }
 
 function test_input($inputan,$username) {
-  $inputan = trim($inputan);
+  $isi = $inputan;
   $ygpunya = $username;
-  // $con = mysql_query("UPDATE pengguna SET firstname=$inputan WHERE username = '$username'") or die(mysql_error());
-  //   if($con) {
-  //   echo "successful";
-  //   }else {
-  //   echo "error";
-  //   }
+  $con = mysql_query("UPDATE pengguna SET firstname='$isi' WHERE username = '$ygpunya'") or die(mysql_error());
+  if($con) {
+    echo "successful";
+  }else {
+    echo "error";
+  }
   echo "$inputan satu <br>"; //mahyudin pagi
   echo "$ygpunya dua <br>"; //mahyudin
   echo "$username"; //pagi
