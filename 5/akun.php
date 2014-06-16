@@ -67,12 +67,20 @@ function test_input($inputan,$username,$kolom) {
   }
   return;
 }
+function placeholder() {
+  // make dynamic
+  $query = mysql_query("SELECT firstname FROM pengguna WHERE username = 'sapi'");
+  $row = mysql_fetch_row($query);
+  $hasil = $row[0];
+  echo "$hasil";
+  return;
+}
 ?>
 
 <h2>PHP Form Validation Example</h2>
 <p><span class="error">* required field.</span></p>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-   Firstname: <input type="text" name="firstname">
+   Firstname: <input type="text" name="firstname" placeholder= "<?php placeholder() ?>" >
    <span class="error">* <?php echo $nameErr;?></span>
    <br><br>
    Lastname: <input type="text" name="lastname">
@@ -96,6 +104,7 @@ function test_input($inputan,$username,$kolom) {
 
 <?php
 echo "<h2>Selamat datang, $username </h2>";
+echo placeholder();
 //echo "<h2>Your Input:</h2>";
 ?>
 
