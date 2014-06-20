@@ -34,10 +34,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     test_input($_POST["lastname"],$username,$kolom);
   }
   if (empty($_POST["email"])) {
-    $emailErr = "Email is required";
+    $emailErr = "";
   } else {
     $kolom = "email";
     test_input($_POST["email"],$username,$kolom);
+  }
+  if (empty($_POST["web"])) {
+    $desk = "";
+  } else {
+    $kolom = "web";
+    test_input($_POST["web"],$username,$kolom);
   }
   if (empty($_POST["desk"])) {
     $desk = "";
@@ -67,9 +73,11 @@ function test_input($inputan,$username,$kolom) {
   }
   return;
 }
-function placeholder() {
+function placeholder($username,$kolom) {
   // make dynamic
-  $query = mysql_query("SELECT firstname FROM pengguna WHERE username = 'sapi'");
+  $ygpunya = $username;
+  $bagian = $kolom;
+  $query = mysql_query("SELECT $bagian FROM pengguna WHERE username = '$ygpunya'");
   $row = mysql_fetch_row($query);
   $hasil = $row[0];
   echo "$hasil";
@@ -80,19 +88,19 @@ function placeholder() {
 <h2>PHP Form Validation Example</h2>
 <p><span class="error">* required field.</span></p>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-   Firstname: <input type="text" name="firstname" placeholder= "<?php placeholder() ?>" >
+   Firstname: <input type="text" name="firstname" placeholder= "<?php $kolom = "firstname"; placeholder($username,$kolom) ?>" >
    <span class="error">* <?php echo $nameErr;?></span>
    <br><br>
-   Lastname: <input type="text" name="lastname">
+   Lastname: <input type="text" name="lastname" placeholder= "<?php $kolom = "lastname"; placeholder($username,$kolom) ?>" >
    <span class="error">* <?php echo $nameErr;?></span>
    <br><br>
-   E-mail: <input type="text" name="email">
+   E-mail: <input type="text" name="email" placeholder= "<?php $kolom = "email"; placeholder($username,$kolom) ?>">
    <span class="error">* <?php echo $emailErr;?></span>
    <br><br>
-   Website: <input type="text" name="desk">
-   <span class="error"><?php echo $websiteErr;?></span>
+   Website: <input type="text" name="web" placeholder= "<?php $kolom = "web"; placeholder($username,$kolom) ?>">
+   <span class="error">* <?php echo $websiteErr;?></span>
    <br><br>
-   Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+   Comment: <textarea name="desk" rows="5" cols="40" placeholder= "<?php $kolom = "desk"; placeholder($username,$kolom) ?>"></textarea>
    <br><br>
    <!-- Gender:
    <input type="radio" name="gender" value="female">Female
@@ -104,7 +112,7 @@ function placeholder() {
 
 <?php
 echo "<h2>Selamat datang, $username </h2>";
-echo placeholder();
+//echo placeholder();
 //echo "<h2>Your Input:</h2>";
 ?>
 
