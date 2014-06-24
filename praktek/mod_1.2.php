@@ -13,7 +13,7 @@
 
   // hitung jumlah array
   $jum_array = count($nama);
-  echo "jumlah element array =". $jum_array;
+  echo "jumlah element array = ". $jum_array;
   
   // bentuk lain
   $kampus[sekolah] = "STMIK";
