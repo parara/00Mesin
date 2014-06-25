@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>Struktir Control IF</title>
+  <title>Koneksi MySQL</title>
 </head>
 <body>
   <?php
