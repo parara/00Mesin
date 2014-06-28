@@ -6,11 +6,22 @@
   <br> DAFTAR BARANG <br>
 <?php
 include_once "connect.php";
-$lakukan = mysql_query("SELECT kodebarang,namabarang FROM barang limit 0,10");
-while ($hasil=mysql_fetch_array($lakukan)) {
+$result = mysql_query("SELECT kodebarang,namabarang FROM barang limit 0,10");
+echo "<table border='1'>
+<tr>
+<th>Firstname</th>
+<th>Lastname</th>
+</tr>";
+// while ($hasil=mysql_fetch_array($lakukan)) {
+// echo "Kode Barang : " . $hasil['kodebarang'] . "<br>";
+// echo "Kode Barang : " . $hasil['namabarang'] . "<br>";
+while($row = mysql_fetch_array($result)) {
+  echo "<tr>";
+  echo "<td>" . $row['kodebarang'] . "</td>";
+  echo "<td>" . $row['namabarang'] . "</td>";
+  echo "</tr>";
+}
+echo "</table>";
 ?>
-Kode Barang : <?php echo $hasil[kodebarang]; ?><br>
-Kode Barang : <?php echo $hasil[namabarang]; ?><br>
-<?php } ?>
 </body>
 </html>
