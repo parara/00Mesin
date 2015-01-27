@@ -1,34 +1,603 @@
 {
-    "Pelayanan Perizinan Bidang": {
-        "Ekonomi": {
-            "title": "Izin Usaha Industri(IUI)",
-            "data" :[
-                {
-                    "Diterima": "",
-                    "Dlm Proses": "",
-                    "Ditolak": "",
-                    "Diterbitkan": 10
-                }]
+  "Pelayanan Perizinan Bidang": {
+    "Ekonomi": {
+      "data" :[
+        {
+          "ID": 1,
+          "Jenis": "Izin Usaha Industri (IUI)",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 10
         },
-        "Kesra": {
-            "title": "Izin Usaha Industri(IUI)",
-            "data" :[
-                {
-                    "Diterima": "",
-                    "Dlm Proses": "",
-                    "Ditolak": "",
-                    "Diterbitkan": 10
-                }]
+        {
+          "ID": 2,
+          "Jenis": "Izin Perluasan Industri (IPI)",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
         },
-        "Pembangunan Fisik": {
-            "title": "Izin Usaha Industri(IUI)",
-            "data" :[
-                {
-                    "Diterima": "",
-                    "Dlm Proses": "",
-                    "Ditolak": "",
-                    "Diterbitkan": 10
-                }]
+        {
+          "ID": 3,
+          "Jenis": "Tanda Daftar Industri (TDI)",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 77
+        },
+        {
+          "ID": 4,
+          "Jenis": "Izin Gangguan (HO)",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 486
+        },
+        {
+          "ID": 5,
+          "Jenis": "Persetujuan Prinsip Usaha Industri",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 6,
+          "Jenis": "Izin Penyelenggaraan Angkutan Penumpang Dalam Trayek",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 68
+        },
+        {
+          "ID": 7,
+          "Jenis": "Izin Penyelenggaraan Angkutan Penumpang Tidak Dalam Trayek",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 8,
+          "Jenis": "Izin Penyelenggaraan Pendidikan dan Pelatihan Pengemudi",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 9,
+          "Jenis": "Izin Penyelenggaraan Bengkel Umum Kendaraan Bermotor",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 10,
+          "Jenis": "Izin Operasi Angkutan",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 11,
+          "Jenis": "Izin Penyelenggaraan Tempat Parkir (IPTP)",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 12,
+          "Jenis": "Izin Kantor Cabang dan Pelayanan Operator",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 13,
+          "Jenis": "Izin Kantor Pusat Jasa Titipan",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 14,
+          "Jenis": "Izin Penerbitan Jasa Titipan Kantor Agen",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 15,
+          "Jenis": "Izin Penyelenggaraan Radio",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 16,
+          "Jenis": "Izin Penyelenggaraan Telekomunikasi Khusus",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 17,
+          "Jenis": "Izin Penyelenggaraan Jaringan Tetap Tertutup Lokasi Wireline",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 18,
+          "Jenis": "Izin Penyelenggaraan Pertelevisian",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 19,
+          "Jenis": "Surat Izin Usaha Perdagangan (SIUP)",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 1490
+        },
+        {
+          "ID": 20,
+          "Jenis": "Izin Usaha Pusat Perbelanjaan (IUPP)",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 2
+        },
+        {
+          "ID": 21,
+          "Jenis": "Izin Usaha Toko Modern (IUTM)",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 14
+        },
+        {
+          "ID": 22,
+          "Jenis": "Izin Usaha Pengelolaan Pasar Tradisional (IUP2T)",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 23,
+          "Jenis": "Surat Tanda Pendaftaran Waralaba (STPW)",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 2
+        },
+        {
+          "ID": 24,
+          "Jenis": "Tanda Daftar Perusahaan (TDP)",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 1608
+        },
+        {
+          "ID": 25,
+          "Jenis": "Tanda Daftar Gudang (TDG)",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 1
+        },
+        {
+          "ID": 26,
+          "Jenis": "Rekomendasi Hasil Analisis Dampak Sosial Ekonomi",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 27,
+          "Jenis": "Rekomendasi Pendirian Minimarket",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 28,
+          "Jenis": "Tanda Daftar Usaha Pariwisata (TDUP)",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 122
         }
+      ]
+    },
+    "Kesra": {
+      "data" :[
+        {
+          "ID": 1,
+          "Jenis": "Izin Mendirikan Rumah Sakit Tipe C dan Tipe D",
+          "Diterima": 5,
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 5
+        },
+        {
+          "ID": 2,
+          "Jenis": "Izin Mendirikan Klinik",
+          "Diterima": 3,
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 3
+        },
+        {
+          "ID": 3,
+          "Jenis": "Izin Apotek",
+          "Diterima": 29,
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 29
+        },
+        {
+          "ID": 4,
+          "Jenis": "Izin Penyelenggaraan Laboratorium Kesehatan",
+          "Diterima": 3,
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 3
+        },
+        {
+          "ID": 5,
+          "Jenis": "Izin Penyelenggaraan Optikal",
+          "Diterima": 9,
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 9
+        },
+        {
+          "ID": 6,
+          "Jenis": "Izin Penyelenggaraan Salon Kecantikan",
+          "Diterima": 3,
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 3
+        },
+        {
+          "ID": 7,
+          "Jenis": "Izin Penyelenggaraan Sehat Pakai Air (SPA)",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 8,
+          "Jenis": "Izin Operasional Rumah Sakit Tipe C dan Tipe D",
+          "Diterima": 9,
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 9
+        },
+        {
+          "ID": 9,
+          "Jenis": "Izin Pedagang Eceran Obat",
+          "Diterima": 6,
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 6
+        },
+        {
+          "ID": 10,
+          "Jenis": "Izin Operasional Klinik",
+          "Diterima": 6,
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 6
+        },
+        {
+          "ID": 11, //mohon koreksi
+          "Jenis": "Izin Operasional Pendirian Pendidikan Formal Swasta",
+          "Diterima": 14,
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 14,
+          "meliputi": [
+            {
+              //"ID": 111,
+              "Jenis": "PAUD atau TK",
+              "Diterima": 5,
+              "Dlm Proses": "",
+              "Ditolak": "",
+              "Diterbitkan": 5
+            },
+            {
+              //"ID": 112,
+              "Jenis": "Sekolah Dasar (SD)",
+              "Diterima": 5,
+              "Dlm Proses": "",
+              "Ditolak": "",
+              "Diterbitkan": 5
+            },
+            {
+              //"ID": 113,
+              "Jenis": "Sekolah Menengah Pertama (SMP)",
+              "Diterima": 3,
+              "Dlm Proses": "",
+              "Ditolak": "",
+              "Diterbitkan": 3
+            },
+            {
+              //"ID": 114,
+              "Jenis": "Sekolah Menengah Atas (SMA)",
+              "Diterima": 2,
+              "Dlm Proses": "",
+              "Ditolak": "",
+              "Diterbitkan": 2
+            },
+            {
+              //"ID": 115,
+              "Jenis": "Sekolah  Menengah Kejuruan (SMK)",
+              "Diterima": 4,
+              "Dlm Proses": "",
+              "Ditolak": "",
+              "Diterbitkan": 4
+            }
+          ]
+        },
+        {
+          "ID": 12,
+          "Jenis": "Izin Operasional Pendirian Pendidikan Non Formal",
+          "Diterima": 99,
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 99,
+          "meliputi": [
+            {
+              //"ID": 121,
+              "Jenis": "Lembaga Kursus dan Pelatihan (LKP)",
+              "Diterima": 15,
+              "Dlm Proses": "",
+              "Ditolak": "",
+              "Diterbitkan": 15
+            },
+            {
+              //"ID": 122,
+              "Jenis": "PAUD sejenis",
+              "Diterima": 83,
+              "Dlm Proses": "",
+              "Ditolak": "",
+              "Diterbitkan": 83
+            },
+            {
+              //"ID": 123,
+              "Jenis": "Tempat Penitipan Anak (TPA)",
+              "Diterima": "",
+              "Dlm Proses": "",
+              "Ditolak": "",
+              "Diterbitkan": ""
+            },
+            {
+              //"ID": 124,
+              "Jenis": "Kelompok Bermain (KOBER)",
+              "Diterima": "",
+              "Dlm Proses": "",
+              "Ditolak": "",
+              "Diterbitkan": ""
+            },
+            {
+              //"ID": 125,
+              "Jenis": "Pusat Kegiatan Belajar Mengajar (PKBM)",
+              "Diterima": 1,
+              "Dlm Proses": "",
+              "Ditolak": "",
+              "Diterbitkan": 1
+            },
+            {
+              //"ID": 126,
+              "Jenis": "Taman Bacaan Masyarakat (TBM)",
+              "Diterima": "",
+              "Dlm Proses": "",
+              "Ditolak": "",
+              "Diterbitkan": ""
+            },
+            {
+              //"ID": 127,
+              "Jenis": "Home schooling",
+              "Diterima": "",
+              "Dlm Proses": "",
+              "Ditolak": "",
+              "Diterbitkan": ""
+            },
+            {
+              //"ID": 126,
+              "Jenis": "Kelompok Belajar Kesetaraan",
+              "Diterima": "",
+              "Dlm Proses": "",
+              "Ditolak": "",
+              "Diterbitkan": ""
+            }
+          ]
+        },
+        {
+          "ID": 13,
+          "Jenis": "Rekomendasi Satuan Pendidikan Kerjasama (SPK)",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 14,
+          "Jenis": "Izin Tempat Penampungan Tenaga Kerja Indonesia (TKI)",
+          "Diterima": 1,
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 1
+        },
+        {
+          "ID": 15,
+          "Jenis": "Penerbitan dan Pengendalian Izin Pendirian Lembaga Bursa Kerja (LBK)/Lembaga Penempatan Kerja Swasta (LPTKS)",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 16,
+          "Jenis": "Izin Praktek Bidan",
+          "Diterima": 6,
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 6
+        }]
+    },
+    "Pembangunan Fisik": {
+      "data" :[
+        {
+          "ID": 1,
+          "Jenis": "Izin Prinsip (IP)",
+          "Diterima": 2,
+          "Dlm Proses": 2,
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 2,
+          "Jenis": "Izin Penggunaan Pemanfaatan Tanah (IPPT)",
+          "Diterima": 275,
+          "Dlm Proses": 57,
+          "Ditolak": 40,
+          "Diterbitkan": 160
+        },
+        {
+          "ID": 3,
+          "Jenis": "Pengesahan Rencana Tapak (Site Plan)",
+          "Diterima": 58,
+          "Dlm Proses": 30,
+          "Ditolak": "",
+          "Diterbitkan": 28
+        },
+        {
+          "ID": 4,
+          "Jenis": "Izin Lokasi (IL)",
+          "Diterima": 8,
+          "Dlm Proses": 3,
+          "Ditolak": "",
+          "Diterbitkan": 5
+        },
+        {
+          "ID": 5,
+          "Jenis": "Izin Mendirikan Bangunan (IMB)",
+          "Diterima": 2061,
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 2005
+        },
+        {
+          "ID": 6,
+          "Jenis": "Izin Jalan Masuk",
+          "Diterima": 5,
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 5
+        },
+        {
+          "ID": 7,
+          "Jenis": "Izin Usaha Jasa Konstruksi (IUJK)",
+          "Diterima": 92,
+          "Dlm Proses": 2,
+          "Ditolak": 1,
+          "Diterbitkan": 89
+        },
+        {
+          "ID": 8,
+          "Jenis": "Izin Penyelenggaraan Reklame (IPR)",
+          "Diterima": 1722,
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 1748
+        },
+        {
+          "ID": 9,
+          "Jenis": "Izin Galian Utilitas",
+          "Diterima": 3,
+          "Dlm Proses": 1,
+          "Ditolak": "",
+          "Diterbitkan": 2
+        },
+        {
+          "ID": 10,
+          "Jenis": "Izin Tiang Pancang",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 11,
+          "Jenis": "Tanda Daftar Tenaga Teknik IUJK",
+          "Diterima": 141,
+          "Dlm Proses": 5,
+          "Ditolak": "",
+          "Diterbitkan": 136
+        },
+        {
+          "ID": 12,
+          "Jenis": "Persetujuan Pemakaian Tanah untuk reklame, untuk menara, gardu, atau bangun-bangunan lainnya, untuk keperluan prasarana, sarana, dan utilitas antara lain jaringan air bersih, jaringan listrik, jaringan telepon, jaringan gas, pemadam kebakaran, serta sarana Penerangan Jalan Umum (PJU)",
+          "Diterima": 196,
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 196
+        },
+        {
+          "ID": 13,
+          "Jenis": "Izin Penyelenggaraan Tempat Parkir (IPTP)",
+          "Diterima": 10,
+          "Dlm Proses": 2,
+          "Ditolak": "",
+          "Diterbitkan": 8
+        },
+        {
+          "ID": 14,
+          "Jenis": "Izin Operasi Lift",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        },
+        {
+          "ID": 15,
+          "Jenis": "Akte Izin Pesawat Uap",
+          "Diterima": 3,
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": 3
+        },
+        {
+          "ID": 16,
+          "Jenis": "Izin Operasional Menara",
+          "Diterima": "",
+          "Dlm Proses": "",
+          "Ditolak": "",
+          "Diterbitkan": ""
+        }
+      ]
     }
+  }
 } 
