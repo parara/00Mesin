@@ -1,0 +1,34 @@
+{
+    "Pelayanan Perizinan Bidang": {
+        "Ekonomi": {
+            "title": "Izin Usaha Industri(IUI)",
+            "data" :[
+                {
+                    "Diterima": "",
+                    "Dlm Proses": "",
+                    "Ditolak": "",
+                    "Diterbitkan": 10
+                }]
+        },
+        "Kesra": {
+            "title": "Izin Usaha Industri(IUI)",
+            "data" :[
+                {
+                    "Diterima": "",
+                    "Dlm Proses": "",
+                    "Ditolak": "",
+                    "Diterbitkan": 10
+                }]
+        },
+        "Pembangunan Fisik": {
+            "title": "Izin Usaha Industri(IUI)",
+            "data" :[
+                {
+                    "Diterima": "",
+                    "Dlm Proses": "",
+                    "Ditolak": "",
+                    "Diterbitkan": 10
+                }]
+        }
+    }
+} 
