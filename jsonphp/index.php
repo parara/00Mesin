@@ -23,9 +23,12 @@ th, td, tr {
 // [2] https://jonsuh.com/blog/convert-loop-through-json-php-javascript-arrays-objects/
 $ekonomi = file_get_contents("ekonomi.json");
 $fisik = file_get_contents("fisik.json");
+$kesra = file_get_contents("kesra.json");
 
 $izineko = json_decode($ekonomi); //objek
 $izinfisik = json_decode($fisik); //objek
+$izinkesra = json_decode($kesra); //objek
+//print_r($izinkesra);
 
 ?>
 <h2>Pelayanan Perizinan Bidang Ekonomi :</h2>
@@ -43,6 +46,28 @@ $izinfisik = json_decode($fisik); //objek
   </tr>
   <?php
   foreach ($izineko as $key => $value) {
+    echo "<tr>";
+    echo "<td>".$value->ID."</td><td style='text-align:left;width:50%;'>".$value->Jenis."</td><td>".$value->Diterima."</td><td>".$value->DlmProses."</td><td>".$value->Ditolak."</td><td>".$value->Diterbitkan."</td>";
+    echo "</tr>";
+  }
+  ?>
+</table>
+
+<h2>Pelayanan Perizinan Bidang Ekonomi :</h2>
+<table style="width:100%">
+  <tr>
+    <th colspan="1" rowspan="2">NO</th>
+    <th colspan="1" rowspan="2">Jenis Pelayanan Perizinan</th>
+    <th colspan="4" rowspan="1">Berkas Perizinan</th>
+  </tr>
+  <tr>
+    <td >Diterima</td>
+    <td>Dlm Proses</td>
+    <td>Ditolak</td>
+    <td>Diterbitkan</td>
+  </tr>
+  <?php
+  foreach ($izinkesra as $key => $value) {
     echo "<tr>";
     echo "<td>".$value->ID."</td><td style='text-align:left;width:50%;'>".$value->Jenis."</td><td>".$value->Diterima."</td><td>".$value->DlmProses."</td><td>".$value->Ditolak."</td><td>".$value->Diterbitkan."</td>";
     echo "</tr>";
