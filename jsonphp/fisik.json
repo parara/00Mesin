@@ -1,0 +1,130 @@
+[
+  {
+    "ID": 1,
+    "Jenis": "Izin Prinsip (IP)",
+    "Diterima": 2,
+    "DlmProses": 2,
+    "Ditolak": "",
+    "Diterbitkan": ""
+  },
+  {
+    "ID": 2,
+    "Jenis": "Izin Penggunaan Pemanfaatan Tanah (IPPT)",
+    "Diterima": 275,
+    "DlmProses": 57,
+    "Ditolak": 40,
+    "Diterbitkan": 160
+  },
+  {
+    "ID": 3,
+    "Jenis": "Pengesahan Rencana Tapak (Site Plan)",
+    "Diterima": 58,
+    "DlmProses": 30,
+    "Ditolak": "",
+    "Diterbitkan": 28
+  },
+  {
+    "ID": 4,
+    "Jenis": "Izin Lokasi (IL)",
+    "Diterima": 8,
+    "DlmProses": 3,
+    "Ditolak": "",
+    "Diterbitkan": 5
+  },
+  {
+    "ID": 5,
+    "Jenis": "Izin Mendirikan Bangunan (IMB)",
+    "Diterima": 2061,
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": 2005
+  },
+  {
+    "ID": 6,
+    "Jenis": "Izin Jalan Masuk",
+    "Diterima": 5,
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": 5
+  },
+  {
+    "ID": 7,
+    "Jenis": "Izin Usaha Jasa Konstruksi (IUJK)",
+    "Diterima": 92,
+    "DlmProses": 2,
+    "Ditolak": 1,
+    "Diterbitkan": 89
+  },
+  {
+    "ID": 8,
+    "Jenis": "Izin Penyelenggaraan Reklame (IPR)",
+    "Diterima": 1722,
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": 1748
+  },
+  {
+    "ID": 9,
+    "Jenis": "Izin Galian Utilitas",
+    "Diterima": 3,
+    "DlmProses": 1,
+    "Ditolak": "",
+    "Diterbitkan": 2
+  },
+  {
+    "ID": 10,
+    "Jenis": "Izin Tiang Pancang",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": ""
+  },
+  {
+    "ID": 11,
+    "Jenis": "Tanda Daftar Tenaga Teknik IUJK",
+    "Diterima": 141,
+    "DlmProses": 5,
+    "Ditolak": "",
+    "Diterbitkan": 136
+  },
+  {
+    "ID": 12,
+    "Jenis": "Persetujuan Pemakaian Tanah untuk reklame, untuk menara, gardu, atau bangun-bangunan lainnya, untuk keperluan prasarana, sarana, dan utilitas antara lain jaringan air bersih, jaringan listrik, jaringan telepon, jaringan gas, pemadam kebakaran, serta sarana Penerangan Jalan Umum (PJU)",
+    "Diterima": 196,
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": 196
+  },
+  {
+    "ID": 13,
+    "Jenis": "Izin Penyelenggaraan Tempat Parkir (IPTP)",
+    "Diterima": 10,
+    "DlmProses": 2,
+    "Ditolak": "",
+    "Diterbitkan": 8
+  },
+  {
+    "ID": 14,
+    "Jenis": "Izin Operasi Lift",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": ""
+  },
+  {
+    "ID": 15,
+    "Jenis": "Akte Izin Pesawat Uap",
+    "Diterima": 3,
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": 3
+  },
+  {
+    "ID": 16,
+    "Jenis": "Izin Operasional Menara",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": ""
+  }
+]

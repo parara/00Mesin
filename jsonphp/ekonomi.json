@@ -1,0 +1,226 @@
+[
+  {
+    "ID": 1,
+    "Jenis": "Izin Usaha Industri (IUI)",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": 10
+  },
+  {
+    "ID": 2,
+    "Jenis": "Izin Perluasan Industri (IPI)",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": ""
+  },
+  {
+    "ID": 3,
+    "Jenis": "Tanda Daftar Industri (TDI)",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": 77
+  },
+  {
+    "ID": 4,
+    "Jenis": "Izin Gangguan (HO)",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": 486
+  },
+  {
+    "ID": 5,
+    "Jenis": "Persetujuan Prinsip Usaha Industri",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": ""
+  },
+  {
+    "ID": 6,
+    "Jenis": "Izin Penyelenggaraan Angkutan Penumpang Dalam Trayek",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": 68
+  },
+  {
+    "ID": 7,
+    "Jenis": "Izin Penyelenggaraan Angkutan Penumpang Tidak Dalam Trayek",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": ""
+  },
+  {
+    "ID": 8,
+    "Jenis": "Izin Penyelenggaraan Pendidikan dan Pelatihan Pengemudi",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": ""
+  },
+  {
+    "ID": 9,
+    "Jenis": "Izin Penyelenggaraan Bengkel Umum Kendaraan Bermotor",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": ""
+  },
+  {
+    "ID": 10,
+    "Jenis": "Izin Operasi Angkutan",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": ""
+  },
+  {
+    "ID": 11,
+    "Jenis": "Izin Penyelenggaraan Tempat Parkir (IPTP)",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": ""
+  },
+  {
+    "ID": 12,
+    "Jenis": "Izin Kantor Cabang dan Pelayanan Operator",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": ""
+  },
+  {
+    "ID": 13,
+    "Jenis": "Izin Kantor Pusat Jasa Titipan",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": ""
+  },
+  {
+    "ID": 14,
+    "Jenis": "Izin Penerbitan Jasa Titipan Kantor Agen",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": ""
+  },
+  {
+    "ID": 15,
+    "Jenis": "Izin Penyelenggaraan Radio",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": ""
+  },
+  {
+    "ID": 16,
+    "Jenis": "Izin Penyelenggaraan Telekomunikasi Khusus",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": ""
+  },
+  {
+    "ID": 17,
+    "Jenis": "Izin Penyelenggaraan Jaringan Tetap Tertutup Lokasi Wireline",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": ""
+  },
+  {
+    "ID": 18,
+    "Jenis": "Izin Penyelenggaraan Pertelevisian",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": ""
+  },
+  {
+    "ID": 19,
+    "Jenis": "Surat Izin Usaha Perdagangan (SIUP)",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": 1490
+  },
+  {
+    "ID": 20,
+    "Jenis": "Izin Usaha Pusat Perbelanjaan (IUPP)",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": 2
+  },
+  {
+    "ID": 21,
+    "Jenis": "Izin Usaha Toko Modern (IUTM)",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": 14
+  },
+  {
+    "ID": 22,
+    "Jenis": "Izin Usaha Pengelolaan Pasar Tradisional (IUP2T)",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": ""
+  },
+  {
+    "ID": 23,
+    "Jenis": "Surat Tanda Pendaftaran Waralaba (STPW)",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": 2
+  },
+  {
+    "ID": 24,
+    "Jenis": "Tanda Daftar Perusahaan (TDP)",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": 1608
+  },
+  {
+    "ID": 25,
+    "Jenis": "Tanda Daftar Gudang (TDG)",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": 1
+  },
+  {
+    "ID": 26,
+    "Jenis": "Rekomendasi Hasil Analisis Dampak Sosial Ekonomi",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": ""
+  },
+  {
+    "ID": 27,
+    "Jenis": "Rekomendasi Pendirian Minimarket",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": ""
+  },
+  {
+    "ID": 28,
+    "Jenis": "Tanda Daftar Usaha Pariwisata (TDUP)",
+    "Diterima": "",
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": 122
+  }
+]
