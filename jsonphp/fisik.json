@@ -3,33 +3,33 @@
     "ID": 1,
     "Jenis": "Izin Prinsip (IP)",
     "Diterima": 2,
-    "DlmProses": 2,
+    "DlmProses": "",
     "Ditolak": "",
-    "Diterbitkan": ""
+    "Diterbitkan": 2
   },
   {
     "ID": 2,
     "Jenis": "Izin Penggunaan Pemanfaatan Tanah (IPPT)",
     "Diterima": 275,
-    "DlmProses": 57,
-    "Ditolak": 40,
-    "Diterbitkan": 160
+    "DlmProses": "",
+    "Ditolak": "",
+    "Diterbitkan": 257
   },
   {
     "ID": 3,
     "Jenis": "Pengesahan Rencana Tapak (Site Plan)",
-    "Diterima": 58,
-    "DlmProses": 30,
+    "Diterima": 8,
+    "DlmProses": "",
     "Ditolak": "",
-    "Diterbitkan": 28
+    "Diterbitkan": 8
   },
   {
     "ID": 4,
     "Jenis": "Izin Lokasi (IL)",
-    "Diterima": 8,
-    "DlmProses": 3,
+    "Diterima": 58,
+    "DlmProses": 30,
     "Ditolak": "",
-    "Diterbitkan": 5
+    "Diterbitkan": 28
   },
   {
     "ID": 5,
@@ -58,7 +58,7 @@
   {
     "ID": 8,
     "Jenis": "Izin Penyelenggaraan Reklame (IPR)",
-    "Diterima": 1722,
+    "Diterima": 1748,
     "DlmProses": "",
     "Ditolak": "",
     "Diterbitkan": 1748
@@ -77,11 +77,11 @@
     "Diterima": "",
     "DlmProses": "",
     "Ditolak": "",
-    "Diterbitkan": ""
+    "Diterbitkan": 0
   },
   {
     "ID": 11,
-    "Jenis": "Tanda Daftar Tenaga Teknik IUJK",
+    "Jenis": "Tanda Daftar Tenaga Teknik IUJK**",
     "Diterima": 141,
     "DlmProses": 5,
     "Ditolak": "",
@@ -109,7 +109,7 @@
     "Diterima": "",
     "DlmProses": "",
     "Ditolak": "",
-    "Diterbitkan": ""
+    "Diterbitkan": 0
   },
   {
     "ID": 15,
@@ -125,6 +125,14 @@
     "Diterima": "",
     "DlmProses": "",
     "Ditolak": "",
-    "Diterbitkan": ""
+    "Diterbitkan": 0
+  },
+  {
+    "ID": "",
+    "Jenis": "<strong>JUMLAH</strong>",
+    "Diterima": 4584,
+    "DlmProses": 40,
+    "Ditolak": 1,
+    "Diterbitkan": 4487
   }
 ]

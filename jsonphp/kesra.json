@@ -10,16 +10,16 @@
   {
     "ID": 2,
     "Jenis": "Izin Mendirikan Klinik",
-    "Diterima": 3,
-    "DlmProses": "",
-    "Ditolak": "",
+    "Diterima": 5,
+    "DlmProses": 1,
+    "Ditolak": 1,
     "Diterbitkan": 3
   },
   {
     "ID": 3,
     "Jenis": "Izin Apotek",
-    "Diterima": 29,
-    "DlmProses": "",
+    "Diterima": 30,
+    "DlmProses": 1,
     "Ditolak": "",
     "Diterbitkan": 29
   },
@@ -34,8 +34,8 @@
   {
     "ID": 5,
     "Jenis": "Izin Penyelenggaraan Optikal",
-    "Diterima": 9,
-    "DlmProses": "",
+    "Diterima": 10,
+    "DlmProses": 1,
     "Ditolak": "",
     "Diterbitkan": 9
   },
@@ -53,7 +53,7 @@
     "Diterima": "",
     "DlmProses": "",
     "Ditolak": "",
-    "Diterbitkan": ""
+    "Diterbitkan": 0
   },
   {
     "ID": 8,
@@ -66,8 +66,8 @@
   {
     "ID": 9,
     "Jenis": "Izin Pedagang Eceran Obat",
-    "Diterima": 6,
-    "DlmProses": "",
+    "Diterima": 7,
+    "DlmProses": 1,
     "Ditolak": "",
     "Diterbitkan": 6
   },
@@ -81,134 +81,118 @@
   },
   {
     "ID": 11,
-    "Jenis": "Izin Operasional Pendirian Pendidikan Formal Swasta<br> meliputi:",
-    "Diterima": 14,
+    "Jenis": "Izin Operasional Pendirian Pendidikan Formal PAUD fomral/TK",
+    "Diterima": 7,
     "DlmProses": "",
-    "Ditolak": "",
-    "Diterbitkan": 14
-  },
-  {
-    "ID": "",
-    "Jenis": "PAUD atau TK",
-    "Diterima": 5,
-    "DlmProses": "",
-    "Ditolak": "",
+    "Ditolak": 2,
     "Diterbitkan": 5
   },
   {
-    "ID": "",
-    "Jenis": "Sekolah Dasar (SD)",
-    "Diterima": 5,
+    "ID": 12,
+    "Jenis": "Izin Operasional Pendirian Pendidikan Formal Swasta Sekolah Dasar (SD)",
+    "Diterima": 6,
     "DlmProses": "",
-    "Ditolak": "",
+    "Ditolak": 1,
     "Diterbitkan": 5
   },
   {
-    "ID": "",
-    "Jenis": "Sekolah Menengah Pertama (SMP)",
+    "ID": 13,
+    "Jenis": "Izin Operasional Pendirian Pendidikan Formal Swasta Sekolah Menengah Pertama (SMP)",
     "Diterima": 3,
     "DlmProses": "",
     "Ditolak": "",
     "Diterbitkan": 3
   },
   {
-    "ID": "",
-    "Jenis": "Sekolah Menengah Atas (SMA)",
+    "ID": 14,
+    "Jenis": "Izin Operasional Pendirian Pendidikan Formal Swasta Sekolah Menengah Atas (SMA)",
     "Diterima": 2,
     "DlmProses": "",
     "Ditolak": "",
     "Diterbitkan": 2
   },
   {
-    "ID": "",
-    "Jenis": "Sekolah  Menengah Kejuruan (SMK)",
-    "Diterima": 4,
+    "ID": 15,
+    "Jenis": "Izin Operasional Pendirian Pendidikan Formal Swasta Sekolah  Menengah Kejuruan (SMK)",
+    "Diterima": 6,
     "DlmProses": "",
-    "Ditolak": "",
+    "Ditolak": 2,
     "Diterbitkan": 4
   },
   {
-    "ID": 12,
-    "Jenis": "Izin Operasional Pendirian Pendidikan Non Formal<br> meliputi:",
-    "Diterima": 99,
-    "DlmProses": "",
-    "Ditolak": "",
-    "Diterbitkan": 99
-  },
-  {
-    "ID": "",
-    "Jenis": "Lembaga Kursus dan Pelatihan (LKP)",
+    "ID": 16,
+    "Jenis": "Izin Operasional Pendirian Pendidikan Non Formal Lembaga Kursus dan Pelatihan (LKP)",
     "Diterima": 15,
     "DlmProses": "",
     "Ditolak": "",
     "Diterbitkan": 15
   },
   {
-    "ID": "",
-    "Jenis": "PAUD sejenis",
+    "ID": 17,
+    "Jenis": "Izin Operasional Pendirian Pendidikan Non Formal PAUD sejenis",
     "Diterima": 83,
     "DlmProses": "",
     "Ditolak": "",
     "Diterbitkan": 83
   },
   {
-    "ID": "",
-    "Jenis": "Tempat Penitipan Anak (TPA)",
+    "ID": 18,
+    "Jenis": "Izin Operasional Pendirian Pendidikan Non Formal Tempat Penitipan Anak (TPA)",
     "Diterima": "",
     "DlmProses": "",
     "Ditolak": "",
-    "Diterbitkan": ""
+    "Diterbitkan": 0
   },
   {
-    "ID": "",
+    "ID": 19,
     "Jenis": "Kelompok Bermain (KOBER)",
     "Diterima": "",
     "DlmProses": "",
     "Ditolak": "",
-    "Diterbitkan": ""
+    "Diterbitkan": 0
   },
   {
-    "ID": "",
-    "Jenis": "Pusat Kegiatan Belajar Mengajar (PKBM)",
+    "ID": 20,
+    "Jenis": "Izin Operasional Pendirian Pendidikan Non Formal Pusat Kegiatan Belajar Mengajar (PKBM)",
     "Diterima": 1,
     "DlmProses": "",
     "Ditolak": "",
     "Diterbitkan": 1
   },
   {
-    "ID": "",
-    "Jenis": "Taman Bacaan Masyarakat (TBM)",
+    "ID": 21,
+    "Jenis": "Izin Operasional Pendirian Pendidikan Non Formal Taman Bacaan Masyarakat (TBM)",
     "Diterima": "",
     "DlmProses": "",
     "Ditolak": "",
-    "Diterbitkan": ""
+    "Diterbitkan": 0
   },
   {
-    "ID": "",
-    "Jenis": "Home schooling",
+    "ID": 22,
+    "Jenis": "Izin Operasional Pendirian Pendidikan Non Formal Home schooling",
     "Diterima": "",
     "DlmProses": "",
     "Ditolak": "",
-    "Diterbitkan": ""
+    "Diterbitkan": 0
   },
   {
-    "ID": "",
-    "Jenis": "Kelompok Belajar Kesetaraan",
+    "ID": 23,
+    "Jenis": "Izin Operasional Pendirian Pendidikan Non Formal Kelompok Belajar Kesetaraan",
     "Diterima": "",
     "DlmProses": "",
     "Ditolak": "",
-    "Diterbitkan": ""
+    "Diterbitkan": 0
   },
   {
-    "ID": 13,
+    "ID": 24,
     "Jenis": "Rekomendasi Satuan Pendidikan Kerjasama (SPK)",
     "Diterima": "",
     "DlmProses": "",
     "Ditolak": "",
-    "Diterbitkan": ""
+    "Diterbitkan": 0
   },
   {
-    "ID": 14,
+    "ID": 25,
     "Jenis": "Izin Tempat Penampungan Tenaga Kerja Indonesia (TKI)",
     "Diterima": 1,
     "DlmProses": "",
@@ -216,18 +200,18 @@
     "Diterbitkan": 1
   },
   {
-    "ID": 15,
+    "ID": 26,
     "Jenis": "Penerbitan dan Pengendalian Izin Pendirian Lembaga Bursa Kerja (LBK)/Lembaga Penempatan Kerja Swasta (LPTKS)",
-    "Diterima": "",
+    "Diterima": 3,
     "DlmProses": "",
-    "Ditolak": "",
-    "Diterbitkan": ""
+    "Ditolak": 1,
+    "Diterbitkan": 2
   },
   {
-    "ID": 16,
-    "Jenis": "Izin Praktek Bidan",
-    "Diterima": 6,
-    "DlmProses": "",
-    "Ditolak": "",
-    "Diterbitkan": 6
+    "ID": "",
+    "Jenis": "<strong>JUMLAH</strong>",
+    "Diterima": 205,
+    "DlmProses": 2,
+    "Ditolak": 9,
+    "Diterbitkan": 194
   }]

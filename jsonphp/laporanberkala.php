@@ -95,7 +95,7 @@ $izinkesra = json_decode($kesra); //objek
                         <h3>Laporan Realisasi Penertiban Izin Tahun 2014</h3>
                     </div>
                     <div class="widget-content">
-<h3>Pelayanan Perizinan Bidang Ekonomi :</h3>
+<h3 style="text-align:center;">REKAPITULASI PERIZINAN TAHUN 2014</h3>
 <table style="width:100%">
   <tr>
     <th colspan="1" rowspan="2">NO</th>
@@ -107,6 +107,34 @@ $izinkesra = json_decode($kesra); //objek
     <td>Dlm Proses</td>
     <td>Ditolak</td>
     <td>Diterbitkan</td>
+  </tr>
+  <tr>
+    <th colspan="6" rowspan="1">- Bidang Fisik -</th>
+  </tr>
+  <?php
+  foreach ($izinfisik as $key => $value) {
+    echo "<tr>";
+    echo "<td>".$value->ID."</td><td style='text-align:left;width:50%;'>".$value->Jenis."</td><td>".$value->Diterima."</td><td>".$value->DlmProses."</td><td>".$value->Ditolak."</td><td>".$value->Diterbitkan."</td>";
+    echo "</tr>";
+  }
+  ?>
+</table>
+
+<h3 style="text-align:center;">REKAPITULASI PERIZINAN TAHUN 2014</h3>
+<table style="width:100%">
+  <tr>
+    <th colspan="1" rowspan="2">NO</th>
+    <th colspan="1" rowspan="2">Jenis Pelayanan Perizinan</th>
+    <th colspan="4" rowspan="1">Berkas Perizinan</th>
+  </tr>
+  <tr>
+    <td >Diterima</td>
+    <td>Dlm Proses</td>
+    <td>Ditolak</td>
+    <td>Diterbitkan</td>
+  </tr>
+  <tr>
+    <th colspan="6" rowspan="1">- Bidang Ekonomi -</th>
   </tr>
   <?php
   foreach ($izineko as $key => $value) {
@@ -117,7 +145,7 @@ $izinkesra = json_decode($kesra); //objek
   ?>
 </table>
 
-<h3>Pelayanan Perizinan Bidang Kesejahteraan Rakyat :</h3>
+<h3 style="text-align:center;">REKAPITULASI PERIZINAN TAHUN 2014</h3>
 <table style="width:100%">
   <tr>
     <th colspan="1" rowspan="2">NO</th>
@@ -129,31 +157,12 @@ $izinkesra = json_decode($kesra); //objek
     <td>Dlm Proses</td>
     <td>Ditolak</td>
     <td>Diterbitkan</td>
+  </tr>
+  <tr>
+    <th colspan="6" rowspan="1">- Bidang Kesra -</th>
   </tr>
   <?php
   foreach ($izinkesra as $key => $value) {
-    echo "<tr>";
-    echo "<td>".$value->ID."</td><td style='text-align:left;width:50%;'>".$value->Jenis."</td><td>".$value->Diterima."</td><td>".$value->DlmProses."</td><td>".$value->Ditolak."</td><td>".$value->Diterbitkan."</td>";
-    echo "</tr>";
-  }
-  ?>
-</table>
-
-<h3>Pelayanan Perizinan Bidang Fisik :</h3>
-<table style="width:100%">
-  <tr>
-    <th colspan="1" rowspan="2">NO</th>
-    <th colspan="1" rowspan="2">Jenis Pelayanan Perizinan</th>
-    <th colspan="4" rowspan="1">Berkas Perizinan</th>
-  </tr>
-  <tr>
-    <td >Diterima</td>
-    <td>Dlm Proses</td>
-    <td>Ditolak</td>
-    <td>Diterbitkan</td>
-  </tr>
-  <?php
-  foreach ($izinfisik as $key => $value) {
     echo "<tr>";
     echo "<td>".$value->ID."</td><td style='text-align:left;width:50%;'>".$value->Jenis."</td><td>".$value->Diterima."</td><td>".$value->DlmProses."</td><td>".$value->Ditolak."</td><td>".$value->Diterbitkan."</td>";
     echo "</tr>";
@@ -202,43 +211,6 @@ $izinkesra = json_decode($kesra); //objek
     table tr td{padding-bottom: 10px;}
     table tr td p{line-height: 20px;}
 </style>
-
-<div class="row-fluid">
-    <div class="span12">
-        <div class="widget stacked">
-            <div class="widget-header">
-                <i class="icon-info icon-2x"></i>
-                <h3>Status Permohonan</h3>
-            </div>
-            <div class="widget-content">
-                <p style="line-height: 18px; margin-left: 5px; ">Untuk mengetahui status permohonan yang telah anda lakukan, <b>masukkan Nomor Pendaftaran</b> anda : </p>
-                <form action="http://bpptpm.kotabogor.go.id/main/cek_status/get2" id='formID' class='formular' method="post"> 
-                <input type="text" style="margin-left: 5px;" size="26" id="id_cak" name="id_cak" class="validate[required] text-input"/>
-                <table>
-                    <td class="ti_table">
-                        <table>
-                            <tr>
-                                <td width="5"></td>
-                                <td> <span id="capcha">
-
-                                    </span></td>
-                                <td width="5"></td>
-                                <td>
-                                    <i title="Reload" class="icon-refresh icon-large" onclick="reload_get()"></i>
-                                </td>
-                            </tr>
-                        </table>
-                        <p style="line-height: 18px; margin-left: 5px; ">Masukkan huruf sesuai gambar di atas </p>
-                        &nbsp;&nbsp;<input type="text" id="isi_capca2" name="isi_capca2" style="width: 200px">
-                        <br/>
-                        <span id="isi_capca_error" style="color: red;"> </span>
-                    </td>
-                </table><br />
-                <input type="submit" class="btn btn-primary" value="Cari" class="validate[required] text-input" />        
-                </form>            </div>
-        </div>
-    </div>
-</div>
 <div class="row-fluid">
     <div class="span12">
         <div class="widget stacked">
